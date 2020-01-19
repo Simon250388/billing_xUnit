@@ -1,1 +1,1 @@
-bin/*.epf
+bin/**/*.epf
