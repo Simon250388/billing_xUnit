@@ -13,7 +13,7 @@ fs.readdirSync(dir).forEach(function(objectType) {
 })
 
 function LoadEpf(pathXml) {   
-    var app_path = "C:\\Program Files (x86)\\1cv8\\8.3.15.1700\\bin\\1cv8.exe";
+    var app_path = "C:\\Program Files\\1cv8\\8.3.15.1700\\bin\\1cv8.exe";
     var arrpathXml = pathXml.replace("\\src\\","\\bin\\").replace(".xml", "").split("\\");
     var arrpathXml = arrpathXml.slice(0,arrpathXml.length - 1); 
     var pathEpf = arrpathXml.join("\\") + ".epf";   

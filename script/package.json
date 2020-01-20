@@ -1,0 +1,10 @@
+{
+  "name": "billing_unit",
+  "version": "1.0.0",
+  "description": "billing xUnit project",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
